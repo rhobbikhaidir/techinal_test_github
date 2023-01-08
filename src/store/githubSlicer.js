@@ -33,7 +33,7 @@ const initialState = {
 };
 
 const githubSlicer = createSlice({
-  name: "sliceUsers",
+  name: "githubSlicer",
   initialState: { ...initialState },
   reducers: {
     setChangeVal: (state, action) => {
